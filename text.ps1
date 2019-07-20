@@ -1,1 +1,2 @@
-Stop-Service -Name "BITS" | get-service "BITS"
+Stop-Service -Name "BITS"
+get-service "BITS"
